@@ -1,6 +1,3 @@
-Copy this Markdown code:
-
-````markdown
 # Software Requirements Specification (SRS)
 
 ## Preface
@@ -618,4 +615,3 @@ The database must include logical relationships between:
 * **Guest:** User with limited access.
 * **Vocabulary:** English words added to the platform for learning.
 * **Synonym:** A word with the same or similar meaning as another word.
-````
