@@ -1,13 +1,14 @@
+class ContestStats {
+    int[] scores = {85, 90, 95};
 
-
-class NumberChecker  {
-    void check(int num){
-        boolean result =(num%2 ==0) && (num>10);
-        System.out.println(result);
-    }}
-    public class Main2{
-        public static void main(String[] args) {
-            NumberChecker checker = new NumberChecker();
-            checker.check(14);
-        }
+    void printFirstScore() {
+        System.out.println("First Score: " + scores[0]);
     }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        ContestStats stats = new ContestStats();
+        stats.printFirstScore();
+    }
+}
